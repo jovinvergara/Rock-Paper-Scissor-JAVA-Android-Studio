@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteX="65dp"
+        app:layout_editor_absoluteY="16dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtPlayerHand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="8sp"/>
+
+        <TextView
+            android:id="@+id/txtBotHand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/txtGameWinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/txtPlayerHand"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
